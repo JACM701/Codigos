@@ -1,0 +1,17 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3;
+    padding: 0;
+}
+body {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    background: #8c7ffa;
+}
+img{
+    display: grid;
+    width: 700px;
+    height: 430px;
+    margin: auto;
+}
