@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Define el conjunto de caracteres del documento como UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Configura la visualización en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página -->
+    <title>Document</title>
+    <!-- Enlace a la hoja de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Enlace a la fuente Poppins de Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap">
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Contenedor del buscador -->
+        <div class="search-container">
+            <!-- Campo de entrada de texto para el nombre de la película -->
+            <input type="text" placeholder="Ingrese el nombre de la pelicula" id="movie-name" value="Rogue One: A Star Wars Story">
+            <!-- Botón para iniciar la búsqueda -->
+            <button id="search-btn">Buscar</button>
+        </div>
+        <!-- Contenedor para mostrar los resultados -->
+        <div id="result"></div>
+    </div>
+    <!-- Inclusión de archivos JavaScript -->
+    <script src="key.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
